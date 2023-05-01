@@ -57,16 +57,16 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         }
     ?>
 
-    <h1 class="text-center">Login Form</h1>
+    <h1 class="text-center text-warning pt-5">Login Form</h1>
     <div class="container mt-5">
         <form action="login.php" method="post">
-    <div class="mb-3">
+    <div class="mb-3 text-center">
         <label for="exampleInputEmail1" class="form-label">Name</label>
-        <input type="text" class="form-control" placeholder="Enter your username" name="username">
+        <input type="text" class="form-control text-center" placeholder="Enter your username" name="username">
     </div>
-    <div class="mb-3">
+    <div class="mb-3 text-center">
         <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" placeholder="Enter your password" name="password">
+        <input type="password" class="form-control text-center" placeholder="Enter your password" name="password">
     </div>
     <button type="submit" class="btn btn-primary w-100">Login</button>
     </form>

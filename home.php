@@ -24,8 +24,8 @@ if(!isset($_SESSION['username'])){
     <?php echo $_SESSION['username'];?>
     </h1>
 
-    <div class="container">
-      <a href="logout.php" class="btn btn-primary mt-5">Logout</a>
+    <div class="container text-center">
+      <a href="index.html" class="btn btn-primary mt-5">Logout</a>
     </div>
   </body>
 </html>
